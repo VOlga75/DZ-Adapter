@@ -1,0 +1,11 @@
+package com.company;
+
+import java.math.BigInteger;
+
+public interface Ints {
+    int sum(int arg0, int arg1);
+
+    int mult(int arg0, int arg1);
+
+    BigInteger pow(int a, int b);
+}
